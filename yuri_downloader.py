@@ -1,7 +1,6 @@
 import json
 from time import sleep
 import aiofiles
-from matplotlib import image
 import requests
 import os
 
