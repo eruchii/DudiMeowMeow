@@ -26,7 +26,7 @@ You can write your own UI for Dudi API.
 - `create_metadata.py`: Batch create metadata `ComicInfo.xml` for all manga in a given folder. This metadata can be used by `Kindle Comic Converter`.\
 **Implementation**:
     - Use `fuzzywuzzy` to find the best match manga from Dudi Data by file name.
-    - If manga is not from Dudi Meowmeow, you can manually create it.
+    - If manga is not from Dudi MeowMeow, you can manually create it.
     - File name format can either have volume or not.\
     Example:
         - `{series} - Vol. {vol}.cbz` \
